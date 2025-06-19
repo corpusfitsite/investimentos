@@ -20,39 +20,6 @@ interface ProjectionEntry {
 }
 
 const initialData: ProjectionEntry[] = [
-  {
-    id: '1',
-    date: '2024-08-15',
-    income: 901.52,
-    freeInvestment: 400,
-    fixedIncome: 300,
-    personalUse: 150,
-    surplus: 51.52,
-    accumulatedInvestments: 400,
-    accumulatedPC: 100
-  },
-  {
-    id: '2',
-    date: '2024-08-30',
-    income: 1100.00,
-    freeInvestment: 500,
-    fixedIncome: 350,
-    personalUse: 200,
-    surplus: 50,
-    accumulatedInvestments: 900,
-    accumulatedPC: 225
-  },
-  {
-    id: '3',
-    date: '2024-09-15',
-    income: 901.52,
-    freeInvestment: 400,
-    fixedIncome: 300,
-    personalUse: 150,
-    surplus: 51.52,
-    accumulatedInvestments: 1300,
-    accumulatedPC: 325
-  }
 ];
 
 export const FinancialProjection = () => {
