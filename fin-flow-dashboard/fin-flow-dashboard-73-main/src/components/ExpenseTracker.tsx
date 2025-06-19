@@ -37,7 +37,7 @@ export const ExpenseTracker = () => {
 
   useEffect(() => {
     if (user) {
-      axios.get(`https://19hninclm5j9.manus.space/expenses/${user.id}`)
+      axios.get(`https://painel-investimentos.onrender.com/expenses/${user.id}`)
         .then(response => {
           setExpenses(response.data);
         })
@@ -60,7 +60,7 @@ export const ExpenseTracker = () => {
       return;
     }
 
-    axios.post("https://19hninclm5j9.manus.space/expenses", {
+    axios.post("https://painel-investimentos.onrender.com/expenses", {
       ...newExpense,
       user_id: user?.id
     })
