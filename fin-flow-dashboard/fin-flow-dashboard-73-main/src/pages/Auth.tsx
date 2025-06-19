@@ -17,7 +17,7 @@ const Auth = () => {
 
   const handleRegister = async () => {
     try {
-      const response = await axios.post("https://19hninclm5j9.manus.space/register", {
+      const response = await axios.post("https://painel-investimentos.onrender.com/register", {
         username,
         password,
       });
@@ -29,7 +29,7 @@ const Auth = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("https://19hninclm5j9.manus.space/login", {
+      const response = await axios.post("https://painel-investimentos.onrender.com/login", {
         username,
         password,
       });
